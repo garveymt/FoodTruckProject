@@ -3,11 +3,13 @@ package com.skilldistillery.foodtruck;
 import java.util.Scanner;
 
 public class FoodTruckApp {
+	private static FoodTruck foodTruck;
+	}
+
 	public static void main(String[] args, Object whatWasInput) {
-		final FoodTruck foodTruck;
+		FoodTruck foodTruck = new FoodTruck();
 		Scanner scanner = new Scanner(System.in);
 
 		boolean foodTrucklist = true;
-		System.out.println("Welcome to the food truck lot. To see our selection please enter \"Next\".");
-}
-}
+		}
+
